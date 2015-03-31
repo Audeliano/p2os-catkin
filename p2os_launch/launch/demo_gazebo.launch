@@ -1,0 +1,15 @@
+<launch>
+  <!-- start gazebo with an empty plane 
+	<include file="$(find gazebo_worlds)/launch/empty_world.launch" />
+	--> 
+	
+
+  <!-- send robot urdf to param server -->
+  <param name="robot_description" command="$(find xacro)/xacro.py $(find p2os_urdf)/defs/pioneer3dx.xacro" />
+
+
+  <!-- push table_description to factory and spawn robot in gazebo -->
+  <node name="spawn_robot" pkg="gazebo" type="spawn_model" args="-urdf -param robot_description -z 1 -model robot_model" respawn="false" output="screen" />
+
+
+</launch>

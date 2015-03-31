@@ -1,0 +1,7 @@
+<launch>
+
+	<param name="robot_description" command="$(find xacro)/xacro.py $(find p2os_urdf)/defs/pioneer3at.xacro" />
+   
+	<include file="$(find p2os_urdf)/launch/publisher.launch" />
+	
+</launch>

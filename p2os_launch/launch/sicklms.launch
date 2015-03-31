@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="sicktoolbox_wrapper" type="sicklms" name="sicklms_node" >
+		<rosparam file="$(find p2os_launch)/config/sick_wrapper/LMS_200.yaml" command="load" />
+	</node>
+</launch>

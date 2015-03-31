@@ -1,0 +1,20 @@
+<launch>
+	<include file="$(find p2os_launch)/launch/p2os_driver.launch" />
+	<include file="$(find rosaria_teleop)/launch/rosaria_teleop.launch" />
+		
+	<!-- 
+	 PS3 Controller Configuration 
+	  * Hold the left shoulder button for manual robot control-->
+	  
+	<param name="axis_vx" type="int" value="1" />
+	<param name="axis_vw" type="int" value="2" />
+	<param name="axis_vy" type="int" value="0" />
+	<param name="deadman_button" type="int" value="10" />
+	<param name="run_button" type="int" value="11" />
+
+	<node pkg="p2os_teleop" type="p2os_teleop" name="p2os_teleop">
+		<remap from="/des_vel" to="/move_base/cmd_vel" />
+	</node>
+	
+	<!-- node pkg="joy" type="joy_node" name="pioneer_joy_controller" / -->
+</launch>

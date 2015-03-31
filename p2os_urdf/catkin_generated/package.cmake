@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "p2os_urdf")
+set(p2os_urdf_MAINTAINER "Dereck Wonnacott <dereck@gmail.com>")
+set(p2os_urdf_DEPRECATED "")
+set(p2os_urdf_VERSION "0.0.0")
+set(p2os_urdf_BUILD_DEPENDS "roscpp" "sensor_msgs" "nav_msgs" "tf")
+set(p2os_urdf_RUN_DEPENDS "roscpp" "sensor_msgs" "nav_msgs" "tf")
+set(p2os_urdf_BUILDTOOL_DEPENDS "catkin")

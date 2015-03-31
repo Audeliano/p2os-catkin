@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "p2os_driver")
+set(p2os_driver_MAINTAINER "Dereck Wonnacott <dereck@gmail.com>")
+set(p2os_driver_DEPRECATED "")
+set(p2os_driver_VERSION "0.0.0")
+set(p2os_driver_BUILD_DEPENDS "roscpp" "std_msgs" "geometry_msgs" "tf" "message_generation")
+set(p2os_driver_RUN_DEPENDS "roscpp" "std_msgs" "geometry_msgs" "tf" "message_runtime")
+set(p2os_driver_BUILDTOOL_DEPENDS "catkin")

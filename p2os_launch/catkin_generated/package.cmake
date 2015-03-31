@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "p2os_launch")
+set(p2os_launch_MAINTAINER "Dereck Wonnacott <dereck@gmail.com>")
+set(p2os_launch_DEPRECATED "")
+set(p2os_launch_VERSION "0.0.0")
+set(p2os_launch_BUILD_DEPENDS )
+set(p2os_launch_RUN_DEPENDS "p2os_driver" "p2os_telop" "p2os_urdf" "laser_drivers" "tf" "joy" "amcl" "gmapping" "move_base" "diagnostics")
+set(p2os_launch_BUILDTOOL_DEPENDS "catkin")
