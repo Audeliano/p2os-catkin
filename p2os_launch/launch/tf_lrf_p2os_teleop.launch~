@@ -3,6 +3,6 @@
 	
 	<!-- run corequisites -->
 	<include file="$(find p2os_urdf)/launch/pioneer3at_urdf.launch" />
-	
-	<include file="$(find p2os_launch)/launch/p2os_teleop.launch" />
+	<include file="$(find p2os_launch)/launch/p2os_driver.launch" />
+	<!-- <include file="$(find p2os_launch)/launch/p2os_teleop.launch" /> -->
 </launch>
