@@ -63,9 +63,7 @@ void RosAriaTeleop::spin()
 		case KEYCODE_W:
 			if(vel_x > 1.0)
 			{
-
 				vel_x = 1.0;
-
 			}else
 			{
 				vel_x = vel_x + 0.1;
@@ -74,19 +72,29 @@ void RosAriaTeleop::spin()
 		case KEYCODE_S:
 			if(vel_x < - 1.0)
 			{
-
 				vel_x = - 1.0;
-
 			}else
 			{
 				vel_x = vel_x - 0.1;
 			}
 			break;
 		case KEYCODE_A:
-			vel_omega = 0.6;//vel_omega + 0.3;
+			if(vel_omega > 0.5)
+			{
+				vel_omega = 0.6;//vel_omega + 0.3;
+			}else
+			{
+				vel_omega = vel_omega + 0.3;
+			}
 			break;
 		case KEYCODE_D:
-			vel_omega = - 0.6;//vel_omega - 0.3;
+			if(vel_omega < 0.5)
+			{
+				vel_omega = - 0.6;//vel_omega - 0.3;
+			}else
+			{
+				vel_omega = vel_omega - 0.3;
+			}
 			break;
 
 		case KEYCODE_SPACE:
@@ -113,7 +121,7 @@ void RosAriaTeleop::watchdog()
 	boost::mutex::scoped_lock lock( publish_mutex_ );
 	if ((ros::Time::now() > last_publish_ + ros::Duration(0.15)) &&
 			(ros::Time::now() > first_publish_ + ros::Duration(0.50)))
-		publish( vel_x, vel_omega );
+		publish( vel_x, 0.0 );
 
 		//publish(0.0, 0.0);
 }
