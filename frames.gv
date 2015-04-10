@@ -1,0 +1,13 @@
+digraph G {
+"base_link" -> "swivel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.213 Hz\nMost recent transform: 1428704813.202 \nBuffer length: 4.700 sec\n"];
+"odom" -> "base_link"[label="Broadcaster: /p2os_node\nAverage rate: 10.266 Hz\nMost recent transform: 1428704813.163 \nBuffer length: 3.702 sec\n"];
+"swivel" -> "center_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.213 Hz\nMost recent transform: 1428704813.202 \nBuffer length: 4.700 sec\n"];
+"map" -> "odom"[label="Broadcaster: /amcl\nAverage rate: 10.202 Hz\nMost recent transform: 1428704813.353 \nBuffer length: 4.705 sec\n"];
+"base_link" -> "back_sonar"[label="Broadcaster: /robot_state_publisher\nAverage rate: 15.215 Hz\nMost recent transform: 1428704813.700 \nBuffer length: 4.666 sec\n"];
+"base_link" -> "front_sonar"[label="Broadcaster: /robot_state_publisher\nAverage rate: 15.215 Hz\nMost recent transform: 1428704813.700 \nBuffer length: 4.666 sec\n"];
+"p3dx_left_wheel" -> "p3dx_left_hubcap"[label="Broadcaster: /robot_state_publisher\nAverage rate: 15.215 Hz\nMost recent transform: 1428704813.700 \nBuffer length: 4.666 sec\n"];
+"p3dx_right_wheel" -> "p3dx_right_hubcap"[label="Broadcaster: /robot_state_publisher\nAverage rate: 15.215 Hz\nMost recent transform: 1428704813.700 \nBuffer length: 4.666 sec\n"];
+"base_link" -> "top_plate"[label="Broadcaster: /robot_state_publisher\nAverage rate: 15.215 Hz\nMost recent transform: 1428704813.700 \nBuffer length: 4.666 sec\n"];
+"center_wheel" -> "center_hubcap"[label="Broadcaster: /robot_state_publisher\nAverage rate: 15.215 Hz\nMost recent transform: 1428704813.700 \nBuffer length: 4.666 sec\n"];
+"base_link" -> "laser"[label="Broadcaster: /base_link_to_laser\nAverage rate: 10.266 Hz\nMost recent transform: 1428704813.271 \nBuffer length: 3.604 sec\n"];
+}
