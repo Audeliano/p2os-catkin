@@ -9,7 +9,7 @@ transform_tolerance:        1.0       # 0.2
 
 
 ### Rate parameters ###
-update_frequency:           2.0
+update_frequency:           1.0		#2.0
 publish_frequency:          2.0
 max_obstacle_height:        2.0
 obstacle_range:             2.0
@@ -35,7 +35,7 @@ laser_scan_sensor: {
   topic:                    scan, 
   sensor_frame:             laser, 
   observation_persistence:  0.0,
-  expected_update_rate:     0.5,
+  expected_update_rate:     37.0,	#0.5,
   data_type:                LaserScan, 
   clearing:                 true, 
   marking:                  true, 
