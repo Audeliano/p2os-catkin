@@ -35,6 +35,9 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
 CMAKE_SOURCE_DIR = /home/au/catkin_ws/src
 
@@ -46,8 +49,8 @@ CMAKE_BINARY_DIR = /home/au/catkin_ws/src
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running interactive CMake command-line interface..."
-	/usr/bin/cmake -i .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -117,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/au/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/au/catkin_ws/src/CMakeFiles /home/au/catkin_ws/src/p2os/p2os_teleop/CMakeFiles/progress.marks
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_teleop/all
+	cd /home/au/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/au/catkin_ws/src/CMakeFiles /home/au/catkin_ws/src/p2os-catkin/p2os_teleop/CMakeFiles/progress.marks
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_teleop/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/au/catkin_ws/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_teleop/clean
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_teleop/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,12 +136,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_teleop/preinstall
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_teleop/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_teleop/preinstall
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_teleop/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -147,17 +150,17 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/rule:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/rule
-.PHONY : p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/rule
+p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/rule:
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/rule
+.PHONY : p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/rule
 
 # Convenience name for target.
-p2os_teleop: p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/rule
+p2os_teleop: p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/rule
 .PHONY : p2os_teleop
 
 # fast build rule for target.
 p2os_teleop/fast:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/build
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/build
 .PHONY : p2os_teleop/fast
 
 src/p2os_teleop.o: src/p2os_teleop.cc.o
@@ -165,7 +168,7 @@ src/p2os_teleop.o: src/p2os_teleop.cc.o
 
 # target to build an object file
 src/p2os_teleop.cc.o:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o
 .PHONY : src/p2os_teleop.cc.o
 
 src/p2os_teleop.i: src/p2os_teleop.cc.i
@@ -173,7 +176,7 @@ src/p2os_teleop.i: src/p2os_teleop.cc.i
 
 # target to preprocess a source file
 src/p2os_teleop.cc.i:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.i
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.i
 .PHONY : src/p2os_teleop.cc.i
 
 src/p2os_teleop.s: src/p2os_teleop.cc.s
@@ -181,7 +184,7 @@ src/p2os_teleop.s: src/p2os_teleop.cc.s
 
 # target to generate assembly for a file
 src/p2os_teleop.cc.s:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.s
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.s
 .PHONY : src/p2os_teleop.cc.s
 
 # Help Target

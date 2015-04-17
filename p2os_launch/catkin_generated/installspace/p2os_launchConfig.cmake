@@ -67,7 +67,7 @@ set(p2os_launch_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(p2os_launch_SOURCE_PREFIX /home/au/catkin_ws/src/p2os/p2os_launch)
+  set(p2os_launch_SOURCE_PREFIX /home/au/catkin_ws/src/p2os-catkin/p2os_launch)
   set(p2os_launch_DEVEL_PREFIX /home/au/catkin_ws/devel)
   set(p2os_launch_INSTALL_PREFIX "")
   set(p2os_launch_PREFIX ${p2os_launch_DEVEL_PREFIX})

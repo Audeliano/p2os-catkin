@@ -67,7 +67,7 @@ set(p2os_driver_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(p2os_driver_SOURCE_PREFIX /home/au/catkin_ws/src/p2os/p2os_driver)
+  set(p2os_driver_SOURCE_PREFIX /home/au/catkin_ws/src/p2os-catkin/p2os_driver)
   set(p2os_driver_DEVEL_PREFIX /home/au/catkin_ws/devel)
   set(p2os_driver_INSTALL_PREFIX "")
   set(p2os_driver_PREFIX ${p2os_driver_DEVEL_PREFIX})

@@ -2,7 +2,7 @@
 
 message(STATUS "p2os_driver: 10 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ip2os_driver:/home/au/catkin_ws/src/p2os/p2os_driver/msg;-Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/hydro/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ip2os_driver:/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg;-Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/hydro/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -18,63 +18,63 @@ add_custom_target(p2os_driver_generate_messages ALL)
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/SonarArray.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/AIO.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_cpp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/LiftState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_cpp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/GripState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_cpp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/PTZState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_cpp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/SonarState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_cpp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/BatteryState.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
 )
 _generate_msg_cpp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/MotorState.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/MotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
 )
 _generate_msg_cpp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/LiftState.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/GripperState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/LiftState.msg;/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/GripState.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_cpp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/DIO.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
 )
 _generate_msg_cpp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/GripState.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_cpp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/GripperState.msg"
-  "${MSG_I_FLAGS}"
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/LiftState.msg;/home/au/catkin_ws/src/p2os/p2os_driver/msg/GripState.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_cpp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/SonarState.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_cpp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/DIO.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_cpp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/AIO.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_cpp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/BatteryState.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/SonarArray.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_cpp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/PTZState.msg"
-  "${MSG_I_FLAGS}"
-  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/p2os_driver
 )
 
@@ -101,63 +101,63 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS p2os_driver_generate_messages_cpp)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/SonarArray.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/AIO.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_lisp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/LiftState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_lisp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/GripState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_lisp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/PTZState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_lisp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/SonarState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_lisp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/BatteryState.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
 )
 _generate_msg_lisp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/MotorState.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/MotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
 )
 _generate_msg_lisp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/LiftState.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/GripperState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/LiftState.msg;/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/GripState.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_lisp(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/DIO.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
 )
 _generate_msg_lisp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/GripState.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_lisp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/GripperState.msg"
-  "${MSG_I_FLAGS}"
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/LiftState.msg;/home/au/catkin_ws/src/p2os/p2os_driver/msg/GripState.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_lisp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/SonarState.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_lisp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/DIO.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_lisp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/AIO.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_lisp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/BatteryState.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/SonarArray.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_lisp(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/PTZState.msg"
-  "${MSG_I_FLAGS}"
-  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/p2os_driver
 )
 
@@ -184,63 +184,63 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS p2os_driver_generate_messages_lisp)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/SonarArray.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/AIO.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_py(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/LiftState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_py(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/GripState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_py(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/PTZState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_py(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/SonarState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_py(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/BatteryState.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
 )
 _generate_msg_py(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/MotorState.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/MotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
 )
 _generate_msg_py(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/LiftState.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/GripperState.msg"
+  "${MSG_I_FLAGS}"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/LiftState.msg;/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/GripState.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
+)
+_generate_msg_py(p2os_driver
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/DIO.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
 )
 _generate_msg_py(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/GripState.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_py(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/GripperState.msg"
-  "${MSG_I_FLAGS}"
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/LiftState.msg;/home/au/catkin_ws/src/p2os/p2os_driver/msg/GripState.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_py(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/SonarState.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_py(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/DIO.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_py(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/AIO.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_py(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/BatteryState.msg"
+  "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/SonarArray.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/hydro/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
-)
-_generate_msg_py(p2os_driver
-  "/home/au/catkin_ws/src/p2os/p2os_driver/msg/PTZState.msg"
-  "${MSG_I_FLAGS}"
-  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/p2os_driver
 )
 
