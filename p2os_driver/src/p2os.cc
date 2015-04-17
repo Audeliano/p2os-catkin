@@ -98,7 +98,7 @@ P2OSNode::P2OSNode( ros::NodeHandle nh ) :
   desired_freq = 10;
 
   // advertise services
-  pose_pub_       = n.advertise<nav_msgs::Odometry>       ("pose"         ,1000);	//("odom"         ,1000);
+  pose_pub_       = n.advertise<nav_msgs::Odometry>       ("odom"         ,1000);	//("pose"         ,1000);
   mstate_pub_     = n.advertise<p2os_driver::MotorState>  ("motor_state"  ,1000);
   grip_state_pub_ = n.advertise<p2os_driver::GripperState>("gripper_state",1000);
   ptz_state_pub_  = n.advertise<p2os_driver::PTZState>    ("ptz_state"    ,1000);
