@@ -1,4 +1,4 @@
-# Install script for directory: /home/au/catkin_ws/src/p2os-catkin/p2os_launch
+# Install script for directory: /home/au/catkin_ws/src/p2os/p2os_launch
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,24 +33,24 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/au/catkin_ws/src/p2os-catkin/p2os_launch/catkin_generated/installspace/p2os_launch.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/au/catkin_ws/src/p2os/p2os_launch/catkin_generated/installspace/p2os_launch.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_launch/cmake" TYPE FILE FILES
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_launch/catkin_generated/installspace/p2os_launchConfig.cmake"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_launch/catkin_generated/installspace/p2os_launchConfig-version.cmake"
+    "/home/au/catkin_ws/src/p2os/p2os_launch/catkin_generated/installspace/p2os_launchConfig.cmake"
+    "/home/au/catkin_ws/src/p2os/p2os_launch/catkin_generated/installspace/p2os_launchConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_launch" TYPE FILE FILES "/home/au/catkin_ws/src/p2os-catkin/p2os_launch/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_launch" TYPE FILE FILES "/home/au/catkin_ws/src/p2os/p2os_launch/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_launch" TYPE DIRECTORY FILES
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_launch/launch"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_launch/config"
+    "/home/au/catkin_ws/src/p2os/p2os_launch/launch"
+    "/home/au/catkin_ws/src/p2os/p2os_launch/config"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

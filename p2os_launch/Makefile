@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/au/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/au/catkin_ws/src/CMakeFiles /home/au/catkin_ws/src/p2os-catkin/p2os_launch/CMakeFiles/progress.marks
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_launch/all
+	cd /home/au/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/au/catkin_ws/src/CMakeFiles /home/au/catkin_ws/src/p2os/p2os_launch/CMakeFiles/progress.marks
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_launch/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/au/catkin_ws/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_launch/clean
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_launch/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,12 +136,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_launch/preinstall
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_launch/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_launch/preinstall
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_launch/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -150,17 +150,17 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-p2os-catkin/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : p2os-catkin/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
+p2os/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule:
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : p2os/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
-_catkin_empty_exported_target: p2os-catkin/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
+_catkin_empty_exported_target: p2os/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : _catkin_empty_exported_target
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make p2os-catkin/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make p2os/p2os_launch/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Help Target

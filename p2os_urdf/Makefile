@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/au/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/au/catkin_ws/src/CMakeFiles /home/au/catkin_ws/src/p2os-catkin/p2os_urdf/CMakeFiles/progress.marks
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_urdf/all
+	cd /home/au/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/au/catkin_ws/src/CMakeFiles /home/au/catkin_ws/src/p2os/p2os_urdf/CMakeFiles/progress.marks
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_urdf/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/au/catkin_ws/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_urdf/clean
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_urdf/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,12 +136,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_urdf/preinstall
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_urdf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_urdf/preinstall
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_urdf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -150,59 +150,59 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
-.PHONY : p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+.PHONY : p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-nav_msgs_generate_messages_cpp: p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+nav_msgs_generate_messages_cpp: p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : nav_msgs_generate_messages_cpp
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
-.PHONY : p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+.PHONY : p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-nav_msgs_generate_messages_lisp: p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+nav_msgs_generate_messages_lisp: p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 .PHONY : nav_msgs_generate_messages_lisp
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
-.PHONY : p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+.PHONY : p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-nav_msgs_generate_messages_py: p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+nav_msgs_generate_messages_py: p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 .PHONY : nav_msgs_generate_messages_py
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make p2os-catkin/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make p2os/p2os_urdf/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/rule:
-	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/rule
-.PHONY : p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/rule
+p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/rule:
+	cd /home/au/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/rule
+.PHONY : p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/rule
 
 # Convenience name for target.
-p2os_urdf_publisher: p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/rule
+p2os_urdf_publisher: p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/rule
 .PHONY : p2os_urdf_publisher
 
 # fast build rule for target.
 p2os_urdf_publisher/fast:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/build.make p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/build
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/build.make p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/build
 .PHONY : p2os_urdf_publisher/fast
 
 src/publisher.o: src/publisher.cc.o
@@ -210,7 +210,7 @@ src/publisher.o: src/publisher.cc.o
 
 # target to build an object file
 src/publisher.cc.o:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/build.make p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/src/publisher.cc.o
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/build.make p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/src/publisher.cc.o
 .PHONY : src/publisher.cc.o
 
 src/publisher.i: src/publisher.cc.i
@@ -218,7 +218,7 @@ src/publisher.i: src/publisher.cc.i
 
 # target to preprocess a source file
 src/publisher.cc.i:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/build.make p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/src/publisher.cc.i
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/build.make p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/src/publisher.cc.i
 .PHONY : src/publisher.cc.i
 
 src/publisher.s: src/publisher.cc.s
@@ -226,7 +226,7 @@ src/publisher.s: src/publisher.cc.s
 
 # target to generate assembly for a file
 src/publisher.cc.s:
-	cd /home/au/catkin_ws/src && $(MAKE) -f p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/build.make p2os-catkin/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/src/publisher.cc.s
+	cd /home/au/catkin_ws/src && $(MAKE) -f p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/build.make p2os/p2os_urdf/CMakeFiles/p2os_urdf_publisher.dir/src/publisher.cc.s
 .PHONY : src/publisher.cc.s
 
 # Help Target

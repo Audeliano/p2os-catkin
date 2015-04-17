@@ -11,7 +11,7 @@ SET(CMAKE_FORCE_UNIX_PATHS 1)
 # The C and CXX include file search paths:
 SET(CMAKE_C_INCLUDE_PATH
   "/home/au/catkin_ws/devel/include"
-  "p2os-catkin/p2os_driver/include"
+  "p2os/p2os_driver/include"
   "/opt/ros/hydro/include"
   )
 SET(CMAKE_CXX_INCLUDE_PATH ${CMAKE_C_INCLUDE_PATH})

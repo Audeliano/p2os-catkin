@@ -1,4 +1,4 @@
-# Install script for directory: /home/au/catkin_ws/src/p2os-catkin/p2os_driver
+# Install script for directory: /home/au/catkin_ws/src/p2os/p2os_driver
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,21 +34,21 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_driver/msg" TYPE FILE FILES
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/AIO.msg"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/BatteryState.msg"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/DIO.msg"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/GripperState.msg"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/GripState.msg"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/LiftState.msg"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/MotorState.msg"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/PTZState.msg"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/SonarArray.msg"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/msg/SonarState.msg"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/msg/AIO.msg"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/msg/BatteryState.msg"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/msg/DIO.msg"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/msg/GripperState.msg"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/msg/GripState.msg"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/msg/LiftState.msg"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/msg/MotorState.msg"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/msg/PTZState.msg"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/msg/SonarArray.msg"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/msg/SonarState.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_driver/cmake" TYPE FILE FILES "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/catkin_generated/installspace/p2os_driver-msg-paths.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_driver/cmake" TYPE FILE FILES "/home/au/catkin_ws/src/p2os/p2os_driver/catkin_generated/installspace/p2os_driver-msg-paths.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -68,22 +68,22 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/catkin_generated/installspace/p2os_driver.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/au/catkin_ws/src/p2os/p2os_driver/catkin_generated/installspace/p2os_driver.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_driver/cmake" TYPE FILE FILES "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/catkin_generated/installspace/p2os_driver-msg-extras.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_driver/cmake" TYPE FILE FILES "/home/au/catkin_ws/src/p2os/p2os_driver/catkin_generated/installspace/p2os_driver-msg-extras.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_driver/cmake" TYPE FILE FILES
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/catkin_generated/installspace/p2os_driverConfig.cmake"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/catkin_generated/installspace/p2os_driverConfig-version.cmake"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/catkin_generated/installspace/p2os_driverConfig.cmake"
+    "/home/au/catkin_ws/src/p2os/p2os_driver/catkin_generated/installspace/p2os_driverConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_driver" TYPE FILE FILES "/home/au/catkin_ws/src/p2os-catkin/p2os_driver/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_driver" TYPE FILE FILES "/home/au/catkin_ws/src/p2os/p2os_driver/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

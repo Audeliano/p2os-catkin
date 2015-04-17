@@ -41,36 +41,36 @@ CMAKE_SOURCE_DIR = /home/au/catkin_ws/src
 CMAKE_BINARY_DIR = /home/au/catkin_ws/src
 
 # Include any dependencies generated for this target.
-include p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/depend.make
+include p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/depend.make
 
 # Include the progress variables for this target.
-include p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/progress.make
+include p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/flags.make
+include p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/flags.make
 
-p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o: p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/flags.make
-p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o: p2os-catkin/p2os_teleop/src/p2os_teleop.cc
+p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o: p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/flags.make
+p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o: p2os/p2os_teleop/src/p2os_teleop.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/au/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o"
-	cd /home/au/catkin_ws/src/p2os-catkin/p2os_teleop && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o -c /home/au/catkin_ws/src/p2os-catkin/p2os_teleop/src/p2os_teleop.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o"
+	cd /home/au/catkin_ws/src/p2os/p2os_teleop && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o -c /home/au/catkin_ws/src/p2os/p2os_teleop/src/p2os_teleop.cc
 
-p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.i: cmake_force
+p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.i"
-	cd /home/au/catkin_ws/src/p2os-catkin/p2os_teleop && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/au/catkin_ws/src/p2os-catkin/p2os_teleop/src/p2os_teleop.cc > CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.i
+	cd /home/au/catkin_ws/src/p2os/p2os_teleop && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/au/catkin_ws/src/p2os/p2os_teleop/src/p2os_teleop.cc > CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.i
 
-p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.s: cmake_force
+p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.s"
-	cd /home/au/catkin_ws/src/p2os-catkin/p2os_teleop && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/au/catkin_ws/src/p2os-catkin/p2os_teleop/src/p2os_teleop.cc -o CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.s
+	cd /home/au/catkin_ws/src/p2os/p2os_teleop && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/au/catkin_ws/src/p2os/p2os_teleop/src/p2os_teleop.cc -o CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.s
 
-p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.requires:
-.PHONY : p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.requires
+p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.requires:
+.PHONY : p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.requires
 
-p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.provides: p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.requires
-	$(MAKE) -f p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.provides.build
-.PHONY : p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.provides
+p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.provides: p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.requires
+	$(MAKE) -f p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.provides.build
+.PHONY : p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.provides
 
-p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.provides.build: p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o
+p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.provides.build: p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o
 
 # Object files for target p2os_teleop
 p2os_teleop_OBJECTS = \
@@ -79,7 +79,7 @@ p2os_teleop_OBJECTS = \
 # External object files for target p2os_teleop
 p2os_teleop_EXTERNAL_OBJECTS =
 
-/home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o
+/home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o
 /home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: /opt/ros/hydro/lib/libtf.so
 /home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: /opt/ros/hydro/lib/libtf2_ros.so
 /home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: /opt/ros/hydro/lib/libactionlib.so
@@ -102,23 +102,23 @@ p2os_teleop_EXTERNAL_OBJECTS =
 /home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: /usr/lib/i386-linux-gnu/libpthread.so
 /home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: /opt/ros/hydro/lib/libcpp_common.so
 /home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: /opt/ros/hydro/lib/libconsole_bridge.so
-/home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make
-/home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/link.txt
+/home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/build.make
+/home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop: p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop"
-	cd /home/au/catkin_ws/src/p2os-catkin/p2os_teleop && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/p2os_teleop.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/au/catkin_ws/src/p2os/p2os_teleop && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/p2os_teleop.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/build: /home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop
-.PHONY : p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/build
+p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/build: /home/au/catkin_ws/devel/lib/p2os_teleop/p2os_teleop
+.PHONY : p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/build
 
-p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/requires: p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.requires
-.PHONY : p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/requires
+p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/requires: p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/src/p2os_teleop.cc.o.requires
+.PHONY : p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/requires
 
-p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/clean:
-	cd /home/au/catkin_ws/src/p2os-catkin/p2os_teleop && $(CMAKE_COMMAND) -P CMakeFiles/p2os_teleop.dir/cmake_clean.cmake
-.PHONY : p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/clean
+p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/clean:
+	cd /home/au/catkin_ws/src/p2os/p2os_teleop && $(CMAKE_COMMAND) -P CMakeFiles/p2os_teleop.dir/cmake_clean.cmake
+.PHONY : p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/clean
 
-p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/depend:
-	cd /home/au/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/au/catkin_ws/src /home/au/catkin_ws/src/p2os-catkin/p2os_teleop /home/au/catkin_ws/src /home/au/catkin_ws/src/p2os-catkin/p2os_teleop /home/au/catkin_ws/src/p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : p2os-catkin/p2os_teleop/CMakeFiles/p2os_teleop.dir/depend
+p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/depend:
+	cd /home/au/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/au/catkin_ws/src /home/au/catkin_ws/src/p2os/p2os_teleop /home/au/catkin_ws/src /home/au/catkin_ws/src/p2os/p2os_teleop /home/au/catkin_ws/src/p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : p2os/p2os_teleop/CMakeFiles/p2os_teleop.dir/depend
 

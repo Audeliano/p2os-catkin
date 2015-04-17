@@ -1,4 +1,4 @@
-# Install script for directory: /home/au/catkin_ws/src/p2os-catkin/p2os_urdf
+# Install script for directory: /home/au/catkin_ws/src/p2os/p2os_urdf
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,18 +33,18 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/au/catkin_ws/src/p2os-catkin/p2os_urdf/catkin_generated/installspace/p2os_urdf.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/au/catkin_ws/src/p2os/p2os_urdf/catkin_generated/installspace/p2os_urdf.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_urdf/cmake" TYPE FILE FILES
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_urdf/catkin_generated/installspace/p2os_urdfConfig.cmake"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_urdf/catkin_generated/installspace/p2os_urdfConfig-version.cmake"
+    "/home/au/catkin_ws/src/p2os/p2os_urdf/catkin_generated/installspace/p2os_urdfConfig.cmake"
+    "/home/au/catkin_ws/src/p2os/p2os_urdf/catkin_generated/installspace/p2os_urdfConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_urdf" TYPE FILE FILES "/home/au/catkin_ws/src/p2os-catkin/p2os_urdf/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_urdf" TYPE FILE FILES "/home/au/catkin_ws/src/p2os/p2os_urdf/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -67,10 +67,10 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/p2os_urdf" TYPE DIRECTORY FILES
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_urdf/defs"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_urdf/launch"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_urdf/meshes"
-    "/home/au/catkin_ws/src/p2os-catkin/p2os_urdf/models"
+    "/home/au/catkin_ws/src/p2os/p2os_urdf/defs"
+    "/home/au/catkin_ws/src/p2os/p2os_urdf/launch"
+    "/home/au/catkin_ws/src/p2os/p2os_urdf/meshes"
+    "/home/au/catkin_ws/src/p2os/p2os_urdf/models"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

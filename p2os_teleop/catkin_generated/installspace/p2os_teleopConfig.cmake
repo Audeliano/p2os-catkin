@@ -67,7 +67,7 @@ set(p2os_teleop_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(p2os_teleop_SOURCE_PREFIX /home/au/catkin_ws/src/p2os-catkin/p2os_teleop)
+  set(p2os_teleop_SOURCE_PREFIX /home/au/catkin_ws/src/p2os/p2os_teleop)
   set(p2os_teleop_DEVEL_PREFIX /home/au/catkin_ws/devel)
   set(p2os_teleop_INSTALL_PREFIX "")
   set(p2os_teleop_PREFIX ${p2os_teleop_DEVEL_PREFIX})
