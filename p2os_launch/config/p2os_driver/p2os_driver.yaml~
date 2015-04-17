@@ -4,7 +4,7 @@
 # p2os_driver/src/p2os_driver/p2os.cc
 #
 
-use_sonar: true
+use_sonar: false
 
 bumpstall: -1
 pulse: 0.5
