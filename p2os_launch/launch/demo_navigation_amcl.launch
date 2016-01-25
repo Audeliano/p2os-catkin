@@ -12,4 +12,5 @@
 	<!-- Run Hardware Drivers -->
 	<include file="$(find p2os_launch)/launch/tf_lrf_p2os_teleop.launch" /> 
 
+	<!--node pkg="pack" type="nav_cbr" name="nav_cbr"/--> 
 </launch>

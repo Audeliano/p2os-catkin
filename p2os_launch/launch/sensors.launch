@@ -1,0 +1,15 @@
+<launch>
+	<node pkg="hokuyo_node" type="hokuyo_node" name="hokuyo_node" >
+		<remap from="scan" to="scan_hokuyo" />
+		<param name="frame_id" type="string" value="laser1" />
+		
+	</node>
+	
+	<node pkg="sicktoolbox_wrapper" type="sicklms" name="sicklms_node" >
+		<rosparam file="$(find p2os_launch)/config/sick_wrapper/LMS_200.yaml" command="load" />
+		<remap from="scan" to="scan_lms" />
+		<param name="frame_id" type="string" value="laser2" />
+	</node>
+
+
+</launch>
