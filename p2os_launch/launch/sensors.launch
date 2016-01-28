@@ -9,6 +9,7 @@
 		<rosparam file="$(find p2os_launch)/config/sick_wrapper/LMS_200.yaml" command="load" />
 		<remap from="scan" to="scan_lms" />
 		<param name="frame_id" type="string" value="laser2" />
+
 	</node>
 
 
