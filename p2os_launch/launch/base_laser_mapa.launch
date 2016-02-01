@@ -1,0 +1,12 @@
+<launch>
+
+	<include file="$(find p2os_launch)/launch/tf_lrf.launch" />
+	<include file="$(find merge_lasers)/launch/merge_lasers.launch" />
+        
+        <include file="$(find p2os_urdf)/launch/pioneer3dx_urdf.launch" />
+        <include file="$(find p2os_launch)/launch/p2os_driver.launch" />
+        <node name="map_server" pkg="map_server" type="map_server" args="/root/catkin_ws/src/p2os/maps/map.yaml"/>
+
+	<include file="$(find p2os_launch)/launch/navigation.launch" />
+
+</launch>
