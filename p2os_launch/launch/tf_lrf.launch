@@ -3,9 +3,9 @@
 	<include file="$(find p2os_launch)/launch/tf_base_link_to_laser.launch" />
 	
 	<!-- Uncomment the laser you wish to use -->
-	<!--include file="$(find p2os_launch)/launch/hokuyo.launch" /-->
+	<include file="$(find p2os_launch)/launch/hokuyo.launch" />
 	<!--include file="$(find p2os_launch)/launch/sicklms.launch" /--> 
 	
 
-	<include file="$(find p2os_launch)/launch/sensors.launch" />
+	<!--include file="$(find p2os_launch)/launch/sensors.launch" /-->
 </launch>
